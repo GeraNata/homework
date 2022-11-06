@@ -1,0 +1,152 @@
+body {
+    font-family: Open Sans;
+}
+.container {
+max-width: 1300px;
+margin: 0px auto;
+}
+.header{
+margin: 53px auto 52px;
+}
+.nav_ul{
+font-weight: bold;
+text-align: center;
+}
+.nav_li{
+display: inline-block;
+}
+.header_link{
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 25px;
+}
+.nav_li:not(:last-of-type){
+    margin-right: 47px;
+}
+.section1{
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.section_title{
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 138px 0 0;
+}
+.button {
+    background-color: #FFFFFF;
+    border: 0ch;
+    width: 420px;
+    height: 70px;
+    font-size: 36px;
+    color: #162C38;
+    border-radius: 5px;
+    margin: 14px auto 180px;
+    font-weight: bold;
+}
+.section2{
+    background-color: rgba(26, 110, 136, 0.71);
+    text-align: center;
+}
+.text{
+color: #FFFFFF;
+max-width: 726px;
+line-height: 49.03px;
+font-size: 36px;
+padding: 133px;
+margin: 0px auto;
+}
+.section3{
+    text-align: center;
+    position: relative;
+    height: 1052px;
+}
+.rectangle{
+    width: 178px;
+    height: 121px;
+    background-color: #BFDEFB;
+
+}
+.pos1{
+    position: absolute;
+top: 100px;
+}
+.pos2{
+    position: absolute;
+    right: 0;
+    top: 235px;
+}
+.pos3{
+    position: absolute;
+    top: 346px;
+}
+.pos4::before{
+    content: '';
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5C98AB;
+    position: absolute;
+    top: 627px;
+    left: 330px;
+}
+.pos4::after{
+    content: '';
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #BFDEFB;
+    position: absolute;
+    top: 842px;
+    right: 232px;
+    }
+.lorem{
+    max-width: 696px;
+    height: 246px;
+    font-size: 34px;
+    line-height: 42px;
+    margin: 0 auto;
+}
+.pos0{
+    padding: 221px 0 216px;
+}
+.pos4{
+    padding: 0 0 123px;
+}
+.section4{
+    max-width: 647px;
+    margin: 0 auto;
+}
+.form{
+    position: relative;
+    margin-bottom: 52px;
+}
+.input{
+padding: 36px 0 11px 34px;
+width: 100%;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 36px;
+}
+.label{
+    position: absolute;
+    left: 31px;
+    top: 14px;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 19px;
+}
+.button2{
+    width: 647px;
+    font-size: 36px;
+    height: 92px;
+    background-color: #5C98AB;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 21px 0;
+    border: 0;
+    margin-bottom: 729px;
+}
